@@ -15,27 +15,12 @@ GitHub Developer Account - Only for implementing GitHub OAuth
 Clone Repository
 bash
 Copy code
-git clone https://github.com/yourusername/clothing-store.git
+git clone https://github.com/balvindra/clothing-store.git
 cd clothing-store
 Install Packages
 Install all the required npm packages:
 
-bash
-Copy code
-npm install
-Environment Variables
-Create a .env file in the root directory of the project and add the following:
-
-env
-Copy code
-GITHUB_CLIENT_ID=your_github_client_id
-GITHUB_CLIENT_SECRET=your_github_client_secret
-GITHUB_CALLBACK_URL=http://localhost:3000/github/callback
-
-MONGO_URI=mongodb://localhost:27017/clothingstore
-SESSION_SECRET=your_session_secret
-Running the Application
-Run the application in development mode:
+mode:
 
 bash
 Copy code
