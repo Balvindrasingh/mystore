@@ -6,7 +6,7 @@ var logger = require("morgan");
 // Router Objects
 var indexRouter = require("./routes/index");
 var projectsRouter = require("./routes/projects");
-var itemsRouter = require("./routes/Items"); 
+var itemsRouter = require("./routes/items"); 
 // var usersRouter = require('./routes/users');
 // Import MongoDB and Configuration modules
 var mongoose = require("mongoose");
